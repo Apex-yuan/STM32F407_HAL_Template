@@ -1,0 +1,8 @@
+DebugConfig/
+Listings/
+Objects/
+STM32F407/
+*.xiaoyuan
+*.uvoptx
+.vscode/ipch/
+*.scvd
