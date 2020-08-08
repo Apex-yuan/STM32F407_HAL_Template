@@ -38,6 +38,7 @@
 #include "stm32f4xx.h"
 #include "delay.h"
 #include "serial.h"
+#include <stdio.h>
 
 /** @addtogroup STM32F4xx_HAL_Examples
   * @{
@@ -113,6 +114,7 @@ int main(void)
     delay(100);
     delayMicroseconds(100);
     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_6);
+    printf("hello world!\n");
   }
 }
 

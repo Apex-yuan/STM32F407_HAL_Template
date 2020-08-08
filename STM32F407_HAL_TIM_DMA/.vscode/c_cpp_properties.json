@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "D:/Program Files/Keil_v5_MDK/ARM/ARMCC/include/**",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Bsp/Inc",
+                "${workspaceFolder}/App/Inc",
+                "${workspaceFolder}/Config",
+                "${workspaceFolder}/Libraries/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Libraries/CMSIS/include",
+                "${workspaceFolder}/Libraries/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceFolder}/User/Inc",
+                "${workspaceFolder}/Utils/Inc"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32F407xx"
+            ],
+            "windowsSdkVersion": "10.0.16299.0",
+            "compilerPath": "D:/Program Files/Keil_v5_MDK/ARM/ARMCC/bin/armcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
